@@ -64,7 +64,7 @@ public class Principal extends JFrame{
                 oPersona.setNombre(txt_Nombre.getText());
                 oPersona.setEstado_Civil(cbo_Civil.getSelectedItem().toString());
                 oPersona.setSexo(cbo_Sexo.getSelectedItem().toString());
-                oPersona.setEspecialidad(null);
+                oPersona.setEspecialidad(check_Java.getText().toString());
                 oPersona.setCiudad(cbo_Ciudad.getSelectedItem().toString());
                 oPersona.setSueldo(Integer.parseInt(txt_Sueldo.getText()));
 
